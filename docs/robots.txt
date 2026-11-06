@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://liyuankui.github.io/xiuyangshengxi/sitemap.xml

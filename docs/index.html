@@ -1,0 +1,550 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>休养生息 | 打完球怎么恢复——运动恢复的循证账本</title>
+<meta name="description" content="拉伸治酸痛是安慰剂，睡眠和蛋白质才是真回账。14 项恢复手段 A–D 循证分级＋赛后 72 小时账单＋跟腱爆雷预警＋5 分钟自检——把运动寿命当资产管。">
+<meta property="og:title" content="休养生息 · 打完球怎么恢复">
+<meta property="og:description" content="拉伸治酸痛≈无效（Cochrane）；跟腱断裂 2/3 事前无预警。14 项恢复手段循证分级 + 赛后 72h 账单 + 5 分钟自检。">
+<meta property="og:image" content="https://liyuankui.github.io/xiuyangshengxi/og-cover.png">
+<meta property="og:url" content="https://liyuankui.github.io/xiuyangshengxi/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23221e18'/%3E%3Ctext x='32' y='44' font-size='34' text-anchor='middle' fill='%23f4efe4' font-family='Songti SC,serif' font-weight='900'%3E休%3C/text%3E%3C/svg%3E">
+<link rel="canonical" href="https://liyuankui.github.io/xiuyangshengxi/">
+<style>
+:root{--ink:#221e18;--cream:#f7f3ea;--paper:#fffdf8;--bing:#bf3a26;--li:#2e5f8b;--zhong:#a8722a;
+  --green:#2e6e4e;--yellow:#b8860b;--red:#bf3a26;
+  --serif:'Songti SC','Noto Serif SC',Georgia,serif;--sans:-apple-system,'PingFang SC','Helvetica Neue',sans-serif}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-font-smoothing:antialiased;line-break:strict}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{background:var(--cream);color:var(--ink);font-family:var(--sans);font-size:15.5px;line-height:1.75}
+a{color:var(--li);text-decoration:none}
+.nw{white-space:nowrap}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+nav{position:sticky;top:0;z-index:100;background:rgba(247,243,234,.94);backdrop-filter:blur(8px);border-bottom:1.5px solid var(--ink)}
+.nav-in{display:flex;align-items:center;gap:14px;padding:12px 22px;max-width:1080px;margin:0 auto;flex-wrap:wrap}
+.brand{font-family:var(--serif);font-weight:900;font-size:19px}
+.brand em{font-style:normal;color:var(--bing)}
+.nav-in .chips{display:flex;gap:8px;flex-wrap:wrap}
+.nav-in .chips a{font-size:12.5px;color:#6a6152;background:var(--paper);border:1px solid #d8d0bf;border-radius:99px;padding:2px 11px}
+.nav-in .chips a:hover{border-color:var(--ink)}
+.nav-in a.fam{margin-left:auto;color:var(--ink);font-weight:700;font-size:13.5px}
+
+.hero{padding:52px 0 26px;text-align:center}
+.kicker{font-size:12px;letter-spacing:.35em;color:#8a8172;font-weight:700;margin-bottom:14px}
+h1{font-family:var(--serif);font-weight:900;font-size:clamp(34px,7vw,56px);line-height:1.1}
+h1 em{font-style:normal;color:var(--bing)}
+.hero .sub{max-width:660px;margin:18px auto 0;font-size:15px;color:#4a443a}
+
+/* 首屏账单 */
+.bill{max-width:560px;margin:30px auto 0;background:var(--paper);border:1.5px solid var(--ink);border-radius:14px;box-shadow:3px 3px 0 rgba(34,30,24,.14);text-align:left;overflow:hidden}
+.bill .bh{font-family:var(--serif);font-weight:900;font-size:15px;background:var(--ink);color:#f4efe4;padding:7px 16px;letter-spacing:.2em}
+.bill .row{display:flex;gap:10px;padding:11px 16px;border-top:1px dashed #d8d0bf;font-size:13.5px;line-height:1.65}
+.bill .row .tag{flex:0 0 64px;font-weight:800;font-size:12px;height:fit-content;border-radius:5px;padding:1px 8px;margin-top:2px}
+.bill .row.spend .tag{color:var(--ink);border:1px solid var(--ink)}
+.bill .row.back .tag{color:var(--green);border:1px solid var(--green)}
+.bill .row.void .tag{color:var(--red);border:1px solid var(--red)}
+.bill .row b{font-weight:700}
+.hero .q{margin-top:26px;font-family:var(--serif);font-size:17px;color:#4a443a}
+@keyframes entry{from{opacity:0;transform:translateY(10px)}}
+.bill .bh{animation:entry .55s cubic-bezier(.16,1,.3,1) .05s both}
+.bill .row{animation:entry .55s cubic-bezier(.16,1,.3,1) both}
+.bill .row:nth-of-type(2){animation-delay:.17s}
+.bill .row:nth-of-type(3){animation-delay:.29s}
+.bill .row:nth-of-type(4){animation-delay:.41s}
+@keyframes stamp{0%{transform:scale(.995)}55%{transform:scale(1.012)}100%{transform:scale(1)}}
+.tblock.on{animation:stamp .4s cubic-bezier(.16,1,.3,1)}
+@media(prefers-reduced-motion:reduce){.bill .bh,.bill .row,.tblock.on{animation:none}}
+
+section{padding:46px 0 4px}
+.sec-head{font-family:var(--serif);font-weight:900;font-size:clamp(24px,4.8vw,32px);margin-bottom:4px}
+.sec-head em{font-style:normal;color:var(--bing)}
+.sec-sub{color:#5c5445;margin-bottom:22px;max-width:760px;font-size:14px}
+
+/* 现金流时间轴 */
+.router{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.rt-btn{font-size:13px;font-weight:700;background:var(--paper);border:1.5px solid #d8d0bf;border-radius:99px;padding:4px 14px;cursor:pointer;color:var(--ink);font-family:var(--sans)}
+.rt-btn:hover{border-color:var(--ink)}
+.rt-btn.on{background:var(--ink);color:#f4efe4;border-color:var(--ink)}
+.router .hint{font-size:12px;color:#6a6152;align-self:center;margin-right:2px}
+.tl{display:grid;gap:14px}
+.tblock{display:grid;grid-template-columns:150px 1fr;gap:0;background:var(--paper);border:1.5px solid var(--ink);border-radius:14px;overflow:hidden;box-shadow:2px 2px 0 rgba(34,30,24,.12);transition:box-shadow .25s,border-color .25s}
+.tblock .t{padding:16px 14px;border-right:1px dashed #d8d0bf;display:flex;flex-direction:column;gap:2px;justify-content:center}
+.tblock .t b{font-family:var(--serif);font-size:16.5px}
+.tblock .t small{font-size:11.5px;color:#6a6152}
+.tblock .c{padding:14px 18px}
+.tblock.on{border-color:var(--bing);box-shadow:3px 3px 0 rgba(191,58,38,.25)}
+.tblock.on .t b{color:var(--bing)}
+.plist{list-style:none;display:grid;gap:6px}
+.plist li{font-size:13.8px;line-height:1.65;padding-left:22px;position:relative}
+.plist li.yes::before{content:'＋';position:absolute;left:2px;font-weight:900;color:var(--green)}
+.plist li.no::before{content:'－';position:absolute;left:2px;font-weight:900;color:var(--red)}
+.plist li small{color:#6a6152;font-size:12px}
+.g{display:inline-block;font-family:var(--serif);font-weight:900;font-size:11px;border:1px solid;border-radius:4px;padding:0 5px;margin-left:4px;vertical-align:1px}
+.gA{color:var(--green);border-color:var(--green)}
+.gB{color:var(--li);border-color:var(--li)}
+.gC{color:var(--zhong);border-color:var(--zhong)}
+.gD{color:var(--red);border-color:var(--red)}
+.note{font-size:12.5px;color:#6a6152;margin-top:8px}
+
+/* 分级账表 */
+.filter{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.f-btn{font-size:13px;font-weight:700;background:var(--paper);border:1.5px solid #d8d0bf;border-radius:99px;padding:4px 14px;cursor:pointer;color:var(--ink);font-family:var(--sans)}
+.f-btn:hover{border-color:var(--ink)}
+.f-btn.on{background:var(--ink);color:#f4efe4;border-color:var(--ink)}
+.legend{font-size:12.5px;color:#6a6152;margin-bottom:12px}
+.tally{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:14px}
+@media(max-width:540px){.tally{grid-template-columns:repeat(2,1fr)}}
+.tcell{display:flex;align-items:center;gap:9px;background:var(--paper);border:1.5px solid var(--ink);border-radius:10px;padding:8px 12px}
+.tcell b{font-family:var(--serif);font-weight:900;font-size:17px}
+.tcell b.gA2{color:var(--green)}.tcell b.gB2{color:var(--li)}.tcell b.gC2{color:var(--zhong)}.tcell b.gD2{color:var(--red)}
+.strokes i{display:inline-block;width:3.5px;height:15px;background:var(--ink);margin-right:3px;border-radius:1px}
+.tcell small{font-size:11.5px;color:#6a6152;margin-left:auto;white-space:nowrap}
+table.ledger{width:100%;border-collapse:collapse;background:var(--paper);border:1.5px solid var(--ink);border-radius:14px;overflow:hidden;box-shadow:2px 2px 0 rgba(34,30,24,.12);font-size:13.5px}
+table.ledger th{font-family:var(--serif);font-size:14px;text-align:left;padding:10px 14px;background:var(--ink);color:#f4efe4}
+table.ledger td{padding:11px 14px;border-top:1px solid #eae3d2;vertical-align:top;line-height:1.65}
+table.ledger tr.A td:first-child{box-shadow:inset 3px 0 0 var(--green)}
+table.ledger tr.B td:first-child{box-shadow:inset 3px 0 0 var(--li)}
+table.ledger tr.C td:first-child{box-shadow:inset 3px 0 0 var(--zhong)}
+table.ledger tr.D td:first-child{box-shadow:inset 3px 0 0 var(--red)}
+table.ledger td .g{margin-left:0;margin-right:2px}
+@media(max-width:640px){table.ledger .hide-m{display:none}}
+
+/* 坏账卡片 */
+.myths{display:grid;gap:12px;grid-template-columns:repeat(2,1fr)}
+@media(max-width:760px){.myths{grid-template-columns:1fr}}
+.myth{background:var(--paper);border:1.5px solid var(--ink);border-radius:14px;padding:16px 18px;box-shadow:2px 2px 0 rgba(34,30,24,.12)}
+.myth .rumor{font-family:var(--serif);font-weight:900;font-size:16px;margin-bottom:8px}
+.myth .rumor::before{content:'“';color:var(--bing)}
+.myth .rumor::after{content:'”';color:var(--bing)}
+.myth .verdict{font-size:13.5px;line-height:1.7}
+.myth .verdict b{color:var(--red)}
+
+/* 跟腱 */
+.statline{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:20px}
+@media(max-width:640px){.statline{grid-template-columns:1fr}}
+.stat{background:var(--paper);border:1.5px solid var(--ink);border-radius:14px;padding:14px 16px;box-shadow:2px 2px 0 rgba(34,30,24,.12);text-align:center}
+.stat .n{font-family:var(--serif);font-weight:900;font-size:clamp(22px,4vw,30px);color:var(--bing)}
+.stat .d{font-size:12.5px;color:#5c5445;margin-top:2px;line-height:1.5}
+.ach{display:grid;gap:14px}
+.ach-card{background:var(--paper);border:1.5px solid var(--ink);border-radius:14px;padding:18px 20px;box-shadow:2px 2px 0 rgba(34,30,24,.12)}
+.ach-card>h3{font-family:var(--serif);font-weight:900;font-size:17px;margin-bottom:8px}
+.ach-card>h3 em{font-style:normal;color:var(--bing)}
+.ach-card p,.ach-card li{font-size:13.8px;line-height:1.7}
+.ach-card ul{padding-left:20px;display:grid;gap:5px}
+.light{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:7px;vertical-align:-1px}
+.light.r{background:var(--red)}
+.light.y{background:var(--yellow)}
+.light.g2{background:var(--green)}
+table.mini{width:100%;border-collapse:collapse;font-size:13px;margin-top:6px}
+table.mini th{text-align:left;font-family:var(--serif);padding:7px 10px;background:#efe9da;border-bottom:1.5px solid var(--ink)}
+table.mini td{padding:8px 10px;border-bottom:1px solid #eae3d2;vertical-align:top;line-height:1.6}
+table.mini tr:last-child td{border-bottom:none}
+
+/* 复利 */
+.comp{display:grid;gap:14px;grid-template-columns:repeat(2,1fr)}
+@media(max-width:760px){.comp{grid-template-columns:1fr}}
+.comp .ach-card{margin:0}
+.comp .big{font-family:var(--serif);font-weight:900;font-size:24px;color:var(--bing)}
+
+/* 自检 */
+.tests{display:grid;gap:14px;grid-template-columns:repeat(2,1fr)}
+@media(max-width:820px){.tests{grid-template-columns:1fr}}
+.test{background:var(--paper);border:1.5px solid var(--ink);border-radius:14px;padding:16px 18px;box-shadow:2px 2px 0 rgba(34,30,24,.12)}
+.test .no{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:50%;background:var(--ink);color:#f4efe4;font-family:var(--serif);font-weight:900;font-size:14px;margin-bottom:6px}
+.test>h3{font-family:var(--serif);font-weight:900;font-size:16.5px;margin-bottom:6px}
+.test .how{font-size:13.2px;color:#5c5445;margin-bottom:8px}
+.test .how::before{content:'怎么做：';font-weight:700;color:var(--ink)}
+.test .sig{font-size:13.2px}
+.test .sig::before{content:'读数：';font-weight:700}
+
+/* 足部 */
+.foot3{display:grid;gap:14px;grid-template-columns:repeat(3,1fr)}
+@media(max-width:820px){.foot3{grid-template-columns:1fr}}
+
+footer.site{margin-top:60px;background:var(--ink);color:#cfc6b4;padding:32px 0 38px;font-size:13px;text-align:center}
+footer.site a{color:#9fc3e8}
+.share-btn{margin-top:14px;background:var(--paper);color:var(--ink);border:none;border-radius:99px;padding:8px 22px;font-size:13.5px;font-weight:700;cursor:pointer;font-family:var(--sans)}
+.share-btn:hover{background:#fff}
+</style>
+</head>
+<body>
+<!--
+THESIS: 恢复不是仪式而是记账——每一笔选择都写进运动寿命总账；拒绝把恢复写成"技巧清单"的品类默认排布。
+OWN-WORLD: 家族纸账本世界：米色 cream 地、纸白卡、墨色字、宋体标题、单一朱红批注；账本语汇（支出/回账/坏账/复利/审计）承载全部结构与导航。
+STORY: 读者明白恢复手段有证据等级、钱该花在 A 级资产、跟腱是会无声爆雷的科目，今晚就改变一两个动作。
+FIRST VIEWPORT: 站名＋一句提问之下是一张"今晚的账单"三行条目卡（支出/回账/无效支出），章节导航 chips 置于 sticky nav。
+FORM: 运动寿命账本（Longevity Ledger），本人候选清单第 6/7 位，seed key af62771b（scope surface / mode read）。
+FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md
+-->
+<nav><div class="nav-in">
+  <span class="brand">休<em>养生息</em></span>
+  <span class="chips">
+    <a href="#cash">现金流</a><a href="#grades">账目分级</a><a href="#bad">坏账</a><a href="#tendon">跟腱</a><a href="#compound">复利</a><a href="#audit">自检</a><a href="#toes">足部</a>
+  </span>
+  <a class="fam" href="https://liyuankui.github.io/sports/" target="_blank">三板斧家族 →</a>
+</div></nav>
+
+<header class="hero"><div class="wrap">
+  <div class="kicker">RECOVERY LEDGER</div>
+  <h1>休<em>养生息</em></h1>
+  <p class="sub">打完球才是另一半比赛。这本账记的不是热量，是你的<b>运动寿命</b>：哪些恢复真的回本，哪些是白花钱的仪式，哪笔账正在无声爆雷。</p>
+  <div class="bill" aria-label="今晚的账单">
+    <div class="bh">今晚的账单</div>
+    <div class="row spend"><span class="tag">支 出</span><span>一场两小时的球，花掉的是肌纤维微损伤、糖原清空，以及跟腱承受的 <b><span class="nw">6–10</span> 倍体重</b>负荷。</span></div>
+    <div class="row back"><span class="tag">回 账</span><span>睡够 <span class="nw">7–9</span> 小时<span class="g gA">A</span>、正餐蛋白质 <span class="nw">30–40g</span><span class="g gB">B</span>、温水澡收尾冷水 1 分<span class="nw">钟<span class="g gB">B</span>。</span></span></div>
+    <div class="row void"><span class="tag">无效支出</span><span>赛后静态拉伸赶酸痛，Cochrane 综述结论：约等于无<span class="nw">效<span class="g gA">A</span>。</span></span></div>
+  </div>
+  <p class="q">恢复不是仪式，是记账。往下翻，逐笔对账。</p>
+</div></header>
+
+<main>
+
+<!-- ═══ 第一章 现金流 ═══ -->
+<section id="cash"><div class="wrap">
+  <h2 class="sec-head">第一章 · 现金流：<em>赛后 72 小时</em></h2>
+  <p class="sec-sub">每一场球都是一笔支出，72 小时是默认回账周期。先选你现在的时点，看对应时段该记的账。</p>
+  <div class="router" role="tablist">
+    <span class="hint">你现在在哪个时段？</span>
+    <button class="rt-btn" data-t="t0">刚下场</button>
+    <button class="rt-btn" data-t="t1">回家当晚</button>
+    <button class="rt-btn" data-t="t2">第二天</button>
+    <button class="rt-btn" data-t="t3"><span class="nw">48–72</span> 小时</button>
+  </div>
+  <div class="tl">
+    <div class="tblock" id="t0">
+      <div class="t"><b>T+<span class="nw">0–30mi</span>n</b><small>刚下场</small></div>
+      <div class="c"><ul class="plist">
+        <li class="yes">再慢走或放松颠球 <span class="nw">5–10</span> 分钟，让心率台阶式降落<span class="g gB">B</span><small>（主动恢复）</small></li>
+        <li class="yes">补水要带钠：出汗超过 1 小时的局，纯水不够，钠和糖一起补吸收才快<small>（SGLT1 通道，详见家族站<a href="https://liyuankui.github.io/yinshuisiyuan/" target="_blank">饮水思源</a>）</small></li>
+        <li class="yes">有小伤（崴脚、撞伤）按 PEACE 原则处理：保护、抬高、避免抗炎药滥用<small>（48 小时内别热敷、别揉）</small></li>
+        <li class="no">别立刻瘫坐吹冷风：心率骤降加肌肉冷僵</li>
+        <li class="no">没受伤的腿不用冰敷，「冰敷防酸痛」证据不足</li>
+      </ul></div>
+    </div>
+    <div class="tblock" id="t1">
+      <div class="t"><b>当晚</b><small>回家后</small></div>
+      <div class="c"><ul class="plist">
+        <li class="yes">先给 <span class="nw">20–30</span> 分钟「冷却期」：坐下来喝水，让交感神经降档，再洗澡再拉伸<small>（刚打完就猛拉伸，牵张反射过载易抽筋）</small></li>
+        <li class="yes">温水澡，最后 <span class="nw">1–2</span> 分钟转冷水冲下肢<span class="g gB">B</span><small>（抑制微炎症；但别一上来就冰水：骤冷对循环冲击大，也可能诱发痉挛，温水过渡更稳妥）</small></li>
+        <li class="yes">晚餐蛋白质 <span class="nw">30–40g</span>＋碳水<span class="g gB">B</span><small>（合成窗口比传说宽得多，看全天总量而非 30 分钟）</small></li>
+        <li class="yes">睡够 <span class="nw">7–9</span> 小时<span class="g gA">A</span>，深睡是生长激素与组织修复的主力时段，也是全表最便宜的一笔 A 级支出</li>
+        <li class="no">酒精是双重扣款：直接抑制肌肉合成，再把睡眠切成碎片<span class="g gD">D</span></li>
+      </ul></div>
+    </div>
+    <div class="tblock" id="t2">
+      <div class="t"><b>T+24h</b><small>第二天</small></div>
+      <div class="c"><ul class="plist">
+        <li class="yes">今天可能是酸痛（DOMS）高峰：<span class="nw">24–48</span> 小时是正常曲线，是修复在进行，不是受伤</li>
+        <li class="yes">轻活动优于卧床<span class="g gB">B</span>：散步、慢骑、游泳 <span class="nw">20–30</span> 分钟，血流把修复原料送到位</li>
+        <li class="yes">照常吃够蛋白质，别因为「歇着」就跳过正餐</li>
+        <li class="no">静态拉伸不会加速 DOMS 消退<span class="g gA">A</span><small>（Cochrane：百分制酸痛量表平均只低约 1 分）</small></li>
+        <li class="no">酸痛期别硬上大重量「练透它」：微损伤窗口叠加负荷才是真伤病入口</li>
+      </ul></div>
+    </div>
+    <div class="tblock" id="t3">
+      <div class="t"><b>T+<span class="nw">48–72h</span></b><small>临近下一场</small></div>
+      <div class="c"><ul class="plist">
+        <li class="yes">酸痛应明显消退；72 小时后仍单侧剧痛、按压痛或肿胀的，不是 DOMS，按拉伤处理</li>
+        <li class="yes">带伤部位复出有硬标准：单腿提踵 15 次无痛＋原地单腿小跳 <span class="nw">20–30</span> 次无痛，缺一不打</li>
+        <li class="yes">复出第一场容量打七到八折，给一周负荷适应期</li>
+        <li class="no">「酸还剩一点但手痒」不是复出标准，测试结果才是</li>
+      </ul></div>
+    </div>
+  </div>
+  <p class="note">DOMS＝Delayed Onset Muscle Soreness，延迟性肌肉酸痛。乳酸在运动后 1 小时内基本清除完毕，第二天的酸和「排酸」无关。</p>
+</div></section>
+
+<!-- ═══ 第二章 账目分级 ═══ -->
+<section id="grades"><div class="wrap">
+  <h2 class="sec-head">第二章 · 账目分级：<em>14 项恢复手段审计</em></h2>
+  <p class="sec-sub">分级不是打分，是诚实的账本：A＝多项随机对照试验/系统综述支持；B＝证据偏向有效；C＝证据不足或因人而异；D＝证据反对或无效。</p>
+  <div class="filter">
+    <button class="f-btn on" data-f="all">全部</button>
+    <button class="f-btn" data-f="A">A 级·真回账</button>
+    <button class="f-btn" data-f="B">B 级·偏有效</button>
+    <button class="f-btn" data-f="C">C 级·存疑</button>
+    <button class="f-btn" data-f="D">D 级·别花</button>
+  </div>
+  <div class="tally" aria-label="等级分布速览">
+    <span class="tcell"><b class="gA2">A</b><span class="strokes" data-n="5"></span><small>真回账 5 项</small></span>
+    <span class="tcell"><b class="gB2">B</b><span class="strokes" data-n="3"></span><small>偏有效 3 项</small></span>
+    <span class="tcell"><b class="gC2">C</b><span class="strokes" data-n="3"></span><small>存疑 3 项</small></span>
+    <span class="tcell"><b class="gD2">D</b><span class="strokes" data-n="3"></span><small>别花 3 项</small></span>
+  </div>
+  <table class="ledger" id="ledgerTable">
+    <thead><tr><th style="width:130px">手段</th><th style="width:64px">等级</th><th>证据说了什么</th><th class="hide-m" style="width:230px">一句话怎么做</th></tr></thead>
+    <tbody>
+      <tr class="A"><td>睡眠 <span class="nw">7–9h</span></td><td><span class="g gA">A</span></td><td>生长激素分泌、疼痛阈值、反应速度全部依赖它；长期睡眠不足与损伤风险升高相关。</td><td class="hide-m">全表性价比最高的一笔，优先保它。</td></tr>
+      <tr class="A"><td>每周力量训练 ≥2 次</td><td><span class="g gA">A</span></td><td>对抗肌少症、增厚肌腱胶原、提高胰岛素敏感性，五项健康收益全部有证据。</td><td class="hide-m">下肢为主，渐进超负荷。</td></tr>
+      <tr class="A"><td>蛋白质 <span class="nw">1.6–2.2g/kg</span>/天</td><td><span class="g gA">A</span></td><td>Morton 等对 1800+ 名训练者的 Meta 分析：1.6g/kg 是增益拐点，分散到 <span class="nw">3–4</span> 餐更优。</td><td class="hide-m">每餐一掌心蛋白，比蛋白粉时机重要。</td></tr>
+      <tr class="A"><td>水＋电解质</td><td><span class="g gA">A</span></td><td>脱水达体重 2% 即影响有氧表现并增加高温下的热应激风险；钠随汗流失最多。</td><td class="hide-m">长局喝含钠饮料，别只灌纯水。</td></tr>
+      <tr class="A"><td>肌腱渐进负荷</td><td><span class="g gA">A</span></td><td>肌腱靠机械负荷重塑胶原（Alfredson 离心方案），静养只会让它更弱。</td><td class="hide-m">提踵慢落 <span class="nw">3–5</span> 秒，详见第四章。</td></tr>
+      <tr class="B"><td>主动恢复</td><td><span class="g gB">B</span></td><td>次日轻活动降低主观酸痛、加快主观恢复感；对组织修复的直接证据有限。</td><td class="hide-m"><span class="nw">20–30</span> 分钟低强度，能聊天为准。</td></tr>
+      <tr class="B"><td>冷水浴/冷淋</td><td><span class="g gB">B</span></td><td>确实减轻酸痛感；但 Roberts 等发现力量增长期常用可能钝化肌肉适应。</td><td class="hide-m">赛季密集用，增肌期少用。</td></tr>
+      <tr class="B"><td>按摩/泡沫轴</td><td><span class="g gB">B</span></td><td>短时降低酸痛感与僵硬感；不改变功能恢复速度，也不「打散」任何东西。</td><td class="hide-m">当放松工具用，别当治疗。</td></tr>
+      <tr class="C"><td>压缩装备</td><td><span class="g gC">C</span></td><td>部分研究显示减轻肿胀感，效果温和且个体差异大。</td><td class="hide-m">穿着舒服就用，别指望逆转。</td></tr>
+      <tr class="C"><td>HRV 监测</td><td><span class="g gC">C</span></td><td>周/月趋势有参考价值；单日数值噪声大，深睡低值多为算法假象。</td><td class="hide-m">看趋势别看单日，见第五章。</td></tr>
+      <tr class="C"><td>补剂（肌酸等）</td><td><span class="g gC">C</span></td><td>肌酸对力量训练者证据充分（ISSN 立场），恢复场景的其他补剂证据参差。</td><td class="hide-m">练力量的可考虑肌酸，其余先睡好。</td></tr>
+      <tr class="D"><td>静态拉伸治酸痛</td><td><span class="g gD">D</span></td><td>Cochrane 系统综述：对 <span class="nw">24–72h</span> DOMS 的缓解在百分制上约 1 分，无实际意义。</td><td class="hide-m">想拉就轻拉放松，别指望它恢复。</td></tr>
+      <tr class="D"><td>酒精</td><td><span class="g gD">D</span></td><td>抑制肌肉蛋白合成，碎片化深睡，恢复期每一杯都在负债。</td><td class="hide-m">赛日当晚，能免则免。</td></tr>
+      <tr class="D"><td>NSAID 止痛求恢复</td><td><span class="g gD">D</span></td><td>布洛芬/膏药不加速恢复，可能干扰肌腱与肌肉修复；止痛与管理恢复是两件事。</td><td class="hide-m">急性疼痛短期用，别贴着上场。</td></tr>
+    </tbody>
+  </table>
+  <p class="note">等级只针对「促进恢复」这个用途：冷水浴在赛程密集时是合理的B级选择；NSAID 作为急性镇痛药当然有效，问题在拿它当恢复手段和上场掩护。</p>
+</div></section>
+
+<!-- ═══ 第三章 坏账 ═══ -->
+<section id="bad"><div class="wrap">
+  <h2 class="sec-head">第三章 · 坏账：<em>白花钱的恢复流言</em></h2>
+  <p class="sec-sub">它们感觉像在恢复，账本上却是零或负数。逐条销账。</p>
+  <div class="myths">
+    <div class="myth"><div class="rumor">酸了就去排酸跑，把乳酸排掉</div><div class="verdict">乳酸在运动结束后 1 小时内已基本作为燃料清除完毕。第二天的酸是 DOMS（肌纤维微损伤修复），<b>没有任何东西可排</b>。慢跑有效的部分是血流，不是「排酸」。</div></div>
+    <div class="myth"><div class="rumor">练完 30 分钟内必须灌蛋白粉</div><div class="verdict">合成窗口以小时计，远比传说宽。<b>全天蛋白质总量（<span class="nw">1.6–2.2g/kg</span>）比精确时机重要得多</b>。练完顺手喝没问题，错过 40 分钟不必焦虑。</div></div>
+    <div class="myth"><div class="rumor">筋膜枪把结节打散</div><div class="verdict">「结节」不会被振动打散；体感放松来自神经层面的抑制，几分钟就会回落。当<b>安抚工具</b>可以，当治疗手段是花钱买安慰。</div></div>
+    <div class="myth"><div class="rumor">跟腱有点疼？贴上膏药继续打</div><div class="verdict">这是跟腱断裂的头号助攻。止痛只是拆掉了警报器，负荷还在。<b>上场当天白天就该全部撕掉</b>（稳妥节奏：前一晚睡前贴、晨起撕），详见第四章时间表。</div></div>
+    <div class="myth"><div class="rumor">出汗就是排毒</div><div class="verdict">汗液 99% 是水，加微量钠钾。排毒是肝肾的本职工作，<b>出汗多只说明该补水了</b>。裹保鲜膜跑步更是纯脱水表演。</div></div>
+    <div class="myth"><div class="rumor">赛后来个桑拿，放松又恢复</div><div class="verdict">恢复期身体需要降温，不是继续加热。高温环境加重脱水与心血管负担，<b>方向反了</b>。要热，等 48 小时后没有急性炎症再说。</div></div>
+  </div>
+</div></section>
+
+<!-- ═══ 第四章 跟腱 ═══ -->
+<section id="tendon"><div class="wrap">
+  <h2 class="sec-head">第四章 · 跟腱：<em>最易无声爆雷的科目</em></h2>
+  <p class="sec-sub">羽毛球、匹克球的急停与蹬伸都压在它身上。这个科目平时几乎没有账单，出事就是坏账核销。</p>
+  <div class="statline">
+    <div class="stat"><div class="n"><span class="nw">2–6cm</span></div><div class="d">跟骨止点上方，血供最差的「致命区」，绝大多数断裂与劳损发生在此</div></div>
+    <div class="stat"><div class="n"><span class="nw">6–10</span> 倍</div><div class="d">急停蹬伸瞬间，跟腱承受的体重倍数</div></div>
+    <div class="stat"><div class="n">2/3</div><div class="d">急性断裂者，断裂前没有任何疼痛病史。退变是静默的</div></div>
+  </div>
+  <div class="ach">
+    <div class="ach-card"><h3>它为什么会<em>突然</em>断</h3>
+      <p>断裂几乎从不发生在健康肌腱上：先是缺血区经年累月的微损伤把强韧的 I 型胶原换成脆弱的 III 型，再在三个特定瞬间引爆——</p>
+      <ul>
+        <li><b>急停刹车</b>（最危险）：脚背被强行背屈、小腿却在拼命收缩，离心过载直接剪切退变区；</li>
+        <li><b>膝伸直位猛蹬伸</b>：启动、抢网、起跳的第一步；</li>
+        <li><b>落地失衡</b>：踩脚后的被动极度背屈。</li>
+      </ul>
+      <p style="margin-top:6px">放大器：末段疲劳（肌肉失去阻尼，冲击波直砸肌腱）、<b>氟喹诺酮类抗生素</b>（左氧氟沙星等，服药期间及停药数月内脆性高）、跟腱局部激素封闭、生胶底抓地过死。</p>
+    </div>
+    <div class="ach-card"><h3>三个红绿灯信号，<em>每周自查</em></h3>
+      <ul style="padding-left:4px;list-style:none">
+        <li><span class="light g2"></span><b>绿灯</b>：晨起第一步顺畅，热身前后无差异。</li>
+        <li><span class="light y"></span><b>黄灯·晨僵</b>：下床前几步发紧发僵，走两三分钟缓解，这是腱内微循环受阻的早期代偿，该降容量了。</li>
+        <li><span class="light r"></span><b>红灯·热身悖论</b>：开场 10 分钟紧痛，热开后完全不痛，当晚或次日大幅反弹，说明结构性退变被内啡肽掩盖，去做超声。</li>
+        <li><span class="light r"></span><b>红灯·形态</b>：致命区出现梭形鼓包、两侧明显不对称。</li>
+      </ul>
+      <p style="margin-top:6px">急变号：打球中脚跟「被人踢了一脚」的脆响＋蹬地无力＝疑似断裂，立即停赛就医（Thompson 捏小腿试验可现场初<span class="nw">判）。</span></p>
+    </div>
+    <div class="ach-card"><h3>数字红线：<em>量出来的安全边际</em></h3>
+      <table class="mini">
+        <tr><th>指标</th><th>正常</th><th>警戒</th></tr>
+        <tr><td>超声厚度（致命区）</td><td><span class="nw">4–6mm</span>，双侧差 &lt;1mm</td><td>≥7mm 或局部低回声</td></tr>
+        <tr><td>单腿提踵耐力</td><td><span class="nw">25–30</span> 次起，爱好者 <span class="nw">30–35</span></td><td>双侧重次数差 &gt;10%</td></tr>
+        <tr><td>WBLT 膝触墙距离</td><td>≥10cm</td><td>双侧差 &gt;<span class="nw">1–1.5cm</span>，偏紧侧过载</td></tr>
+        <tr><td>晨僵持续时间</td><td>偶尔、几分钟内消失</td><td>持续一周以上</td></tr>
+      </table>
+      <p style="margin-top:6px">鼓包、压痛、晨僵超过一周：去运动医学科或康复科做一次床旁肌骨超声，几分钟出结果。</p>
+    </div>
+    <div class="ach-card"><h3>膏药时间表：<em>贴对了是药，贴错了是雷</em></h3>
+      <table class="mini">
+        <tr><th>场景</th><th>做法</th></tr>
+        <tr><td>休息/睡眠时段</td><td>可以贴。肌肉劳损（腿肚酸刺）贴活血类；肌腱发胀（跟腱）贴 NSAID 凝胶贴膏。贴敷时长以药品说明书为准，皮肤薄嫩处与敏感体质应缩短，火辣刺痒立刻揭掉清洗；连贴不超过数天，止痛不等于治疗。</td></tr>
+        <tr><td>上场当天</td><td>白天全部撕掉。凝胶在皮下持续释药，撕掉后镇痛作用仍在；活血类则让组织充血松弛。稳妥节奏：前一晚睡前贴、晨起撕。带着药效上场＝拆警报器。</td></tr>
+        <tr><td>打球当晚</td><td>有急性发胀先冰敷 15 分钟，再考虑夜间贴敷。</td></tr>
+        <tr><td>上场前想保护</td><td>用物理手段：肌内效贴布、硅胶护踝，加 3 组 ×15 次轻提踵热身；不做踩台阶压跟腱的静态拉伸。</td></tr>
+      </table>
+    </div>
+    <div class="ach-card"><h3>把科目养肥：<em>负荷即良药</em></h3>
+      <p>跟腱的修复语言是机械负荷，不是静养。两条路径：</p>
+      <ul>
+        <li><b>离心提踵</b>（Alfredson 方案）：站台阶边，双脚提踵到顶，重心移到单脚，用 <span class="nw">3–5</span> 秒缓慢下沉到最低点，再双脚升起。刺激胶原定向重塑，是慢性肌腱病的一线循证方案。</li>
+        <li><b>等长悬停镇痛</b>：中位提踵静止保持 <span class="nw">30–45</span> 秒 ×<span class="nw">3–4</span> 组，运动前做可即时降低腱痛。</li>
+      </ul>
+      <p style="margin-top:6px">长期账：跨步救球瞬间单侧跟腱张力可达体重 3 倍以上——<b>小腿肌肉维度本身就是避震器</b>，刷牙等车间把「双腿踮起、单腿慢落」当零存整取。</p>
+      <p style="margin-top:6px">代偿链提醒：跟腱发胀时身体会把负荷转给小腿肌肉，于是常见「跟腱不胀了、腿肚某个角度刺痛」。刺痛＝微撕裂信号：<b>停止一切拉伸</b>，白天穿小腿压缩套，恢复单腿提踵 15 次＋小跳 <span class="nw">20–30</span> 次无痛后，再按七八折容量复出。</p>
+    </div>
+  </div>
+</div></section>
+
+<!-- ═══ 第五章 复利 ═══ -->
+<section id="compound"><div class="wrap">
+  <h2 class="sec-head">第五章 · 复利账户：<em>把运动寿命当资产</em></h2>
+  <p class="sec-sub">72 小时现金流决定下一场的状态；复利账户决定你 60 岁还在不在场上。</p>
+  <div class="comp">
+    <div class="ach-card"><h3>最大的隐性负债：<em>肌少症</em></h3>
+      <p class="big">每十年 −3~8%</p>
+      <p>30 岁起不干预，肌肉量每十年流失 <span class="nw">3–8%</span>，骨密度同步下滑。力量训练是目前唯一被证实能逆转这条曲线的投资，且收益不止肌肉：神经系统募集能力、骨密度、抑郁焦虑水平、胰岛素敏感性、老年防跌，五项核查全部有证据支持。</p>
+      <p style="margin-top:6px">配额：每周 ≥2 次，以下肢与后侧链（臀、腿后）为主，遵守<b>10% 法则</b>（每周负荷增幅不超过前一周 <span class="nw">10%）。</span></p>
+    </div>
+    <div class="ach-card"><h3>蛋白质：<em>本金别断供</em></h3>
+      <p class="big"><span class="nw">1.6–2.2 g</span>/kg/天</p>
+      <p>训练人群的增益拐点在 1.6g/kg，分散到 <span class="nw">3–4</span> 餐（每餐约 0.4g/kg）优于集中一顿。70kg 的人一天约 <span class="nw">110–150g</span>：一掌心肉＋一个蛋＋一杯奶的一餐约 30g，三餐加睡前奶基本够。</p>
+      <p style="margin-top:6px">随着年龄增长，身体对蛋白质的敏感性下降，<b>同龄人里吃够蛋白的那个，肌肉账户利率更高</b>。</p>
+    </div>
+    <div class="ach-card"><h3>读懂对账单：<em>HRV 正确用法</em></h3>
+      <ul>
+        <li><b>深睡时 <span class="nw">6–10ms</span> 不是崩溃</b>：心率沉降成直线，SDNN 算法自然读出极低值，这反而是深睡纯度高的表现；大负荷后的「深睡反弹」更会拉低夜间数值。</li>
+        <li><b>侧卧压住戴表手臂</b>会让读数失真（血流灌注不足的伪影），数值连续几十分钟卡死在个位数多半是它。</li>
+        <li><b>最可靠的做法</b>：晨起躺床上，用正念呼吸 App 做 <span class="nw">1–2</span> 分钟自然呼吸时的单点测量，固定姿态、无压迫，这才是当天恢复的标尺。</li>
+        <li><b>只看周/月趋势</b>：单日数值是噪声；连续一周下移才说明透支。</li>
+      </ul>
+    </div>
+    <div class="ach-card"><h3>恢复速度：<em>体检藏在下场后</em></h3>
+      <p>运动中的 HRV 无意义（越拼命越低，趋近于<span class="nw">零）。</span>真正有信息量的是运动结束后副交感神经的回位速度：</p>
+      <ul>
+        <li>坐定后 <span class="nw">1–2</span> 分钟心率快速回落、半小时到一小时内 HRV 明显回升，底子好；</li>
+        <li>打完几小时后 HRV 仍卡在低位，这次负荷真的透支了，第二天的现金流（睡眠、轻活动）要按上限执行。</li>
+      </ul>
+    </div>
+  </div>
+</div></section>
+
+<!-- ═══ 第六章 自检 ═══ -->
+<section id="audit"><div class="wrap">
+  <h2 class="sec-head">第六章 · 年度审计：<em>5 分钟 4 项自检</em></h2>
+  <p class="sec-sub">脱鞋、硬地、极慢速，剥掉球鞋缓冲与借力惯性，看关节的真实账面。多数没练过单侧力量的成年人做不稳很正常：<b>摇晃不疼是好事</b>，疼才是账面问题。左右对比做。</p>
+  <div class="tests">
+    <div class="test"><span class="no">1</span><h3>慢速单腿触椅起坐（膝）</h3>
+      <p class="how">膝盖同高的椅子，单腿站、另一腿前伸，3 秒下、3 秒起，臀部轻触即起，左右各 5 次。</p>
+      <p class="sig">膝盖内扣＝臀中肌不足；膝前/下方刺痛＝髌骨软骨早期信<span class="nw">号；</span>摇晃但不<span class="nw">疼＝</span>只是神经控制挑战。</p>
+    </div>
+    <div class="test"><span class="no">2</span><h3>贴墙闭眼单腿提踵（跟腱/足弓）</h3>
+      <p class="how">指尖轻触墙，闭眼单腿，2 秒踮到顶停 1 秒、3 秒落下，左右各 10 次。</p>
+      <p class="sig">足底牵扯痛或脚踝外翻＝足弓支撑退化；下落段跟腱中段酸点＝离心负荷已近阈值。</p>
+    </div>
+    <div class="test"><span class="no">3</span><h3>WBLT 膝触墙（踝背屈）</h3>
+      <p class="how">赤足面墙，脚趾距墙 10cm，脚跟全程不离地，膝盖向前顶墙。</p>
+      <p class="sig">碰不到墙或脚跟翘起＝背屈受限；单侧下蹲别扭的根源常在这里，受限侧需比目鱼肌牵拉与松动。</p>
+    </div>
+    <div class="test"><span class="no">4</span><h3>单腿臀桥 30 秒（核心/臀）</h3>
+      <p class="how">仰卧屈膝，骨盆顶到大腿躯干一线，一条腿伸直悬空，保持骨盆水平 30 秒。</p>
+      <p class="sig">一侧骨盆塌落＝核心抗旋弱；15 秒内腿后侧抽筋＝臀肌「罢工」，爆发力全在压榨腰椎和大腿。</p>
+    </div>
+  </div>
+  <p class="note">加两条常规盘点：单腿提踵耐力 <span class="nw">25–30</span> 次（双侧差 ≤10%）；任何锐痛、肿胀、持续一周以上的晨僵——停止自检，直接就医。</p>
+</div></section>
+
+<!-- ═══ 第七章 足部 ═══ -->
+<section id="toes"><div class="wrap">
+  <h2 class="sec-head">第七章 · 小额账目：<em>老茧与趾甲</em></h2>
+  <p class="sec-sub">金额不大，但天天记账。处理原则都是：解除源头摩擦，而不是跟皮肤对抗。</p>
+  <div class="ach foot3">
+    <div class="ach-card"><h3>老茧（胼胝）</h3>
+      <p>防御性角质增厚，<b>轻度无痛＝勋章，不用治</b>。过厚硌脚才处理：温水泡 <span class="nw">10–15</span> 分钟软化，浮石轻磨薄薄一层，涂 <span class="nw">10–20%</span> 尿素足霜。</p>
+      <p style="margin-top:6px">边界清晰、有硬核、按压针刺痛的是<b>鸡眼</b>，打磨保湿效果有限，需专门处理。反复起茧的固定位置，先查鞋合不合脚、发力偏不偏。</p>
+    </div>
+    <div class="ach-card"><h3>跑者趾甲（增厚）</h3>
+      <p>趾甲反复顶撞鞋头＝甲床慢性刺激，代偿性增厚。<b>不变色、不疼、只发生在冲击最多的脚趾＝机械性，不是灰指甲</b>，不用药。</p>
+      <p style="margin-top:6px">变色、掉渣、有脚气史才需真菌镜检。根治靠解除冲击：鞋头留一指宽，马拉松系带法锁住后跟。大脚趾甲整个换新约 <b><span class="nw">12–18</span> 个月</b>、小趾更快，别急。</p>
+    </div>
+    <div class="ach-card"><h3>预防性装备账</h3>
+      <ul>
+        <li>运动袜选吸汗无缝款，纯棉湿了更磨；</li>
+        <li>易磨处（前掌、跟、趾关节）预先贴防磨贴；</li>
+        <li>横向运动别穿高重心厚底跑鞋：侧向抗扭不够，崴脚与跟腱偏心扭力都吃亏；</li>
+        <li>趾甲剪平直方形，不留杠杆也不剪出嵌甲。</li>
+      </ul>
+    </div>
+  </div>
+</div></section>
+
+</main>
+
+<footer class="site"><div class="wrap">
+  <div>休养生息 XIUYANGSHENGXI · <a href="https://github.com/liyuankui/xiuyangshengxi" target="_blank">GitHub</a> · MIT</div>
+  <div style="margin-top:6px;font-size:12px">证据来源：Cochrane 系统综述（Herbert 等 2011，拉伸与 DOMS）· Morton 等 2018 BJSM 蛋白质 Meta 分析 · Roberts 等 2015 冷水浸泡与训练适应 · Alfredson 等 1998 离心方案 · ACSM/ISSN 立场声明 · 个人康复调研整理（跟腱/HRV/自检/足部）</div>
+  <div style="font-size:12px;margin-top:4px">本页为运动科学科普，不构成医疗建议；急性损伤与持续疼痛请就医。</div>
+  <div style="font-size:12px;margin-top:4px">三板斧家族：<a href="https://liyuankui.github.io/sports/" target="_blank">总索引</a> · <a href="https://liyuankui.github.io/sanbanfu/" target="_blank">技术矩阵</a> · <a href="https://liyuankui.github.io/xianlihoubing/" target="_blank">礼仪规则</a> · <a href="https://liyuankui.github.io/geziweizhan/" target="_blank">单双差异</a> · <a href="https://liyuankui.github.io/shiyuyuanwei/" target="_blank">反直觉陷阱</a> · <a href="https://liyuankui.github.io/ruxiangsuisu/" target="_blank">术语词典</a> · <a href="https://liyuankui.github.io/yinshuisiyuan/" target="_blank">怎么喝</a></div>
+  <button class="share-btn" id="shareBtn">⧉ 复制分享文案</button>
+</div></footer>
+
+<script>
+// ── 划记 ──────────────────────────────────────
+document.querySelectorAll('.strokes').forEach(el => { el.innerHTML = '<i></i>'.repeat(+el.dataset.n); });
+
+// ── 时段路由 ─────────────────────────────────
+document.querySelectorAll('.rt-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.rt-btn').forEach(b => b.classList.remove('on'));
+    btn.classList.add('on');
+    document.querySelectorAll('.tblock').forEach(b => b.classList.remove('on'));
+    const blk = document.getElementById(btn.dataset.t);
+    if (blk) { blk.classList.add('on'); blk.scrollIntoView({ behavior: 'smooth', block: 'center' }); }
+    track('time_router', { slot: btn.dataset.t });
+  });
+});
+
+// ── 等级筛选 ─────────────────────────────────
+document.querySelectorAll('.f-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.f-btn').forEach(b => b.classList.remove('on'));
+    btn.classList.add('on');
+    const f = btn.dataset.f;
+    document.querySelectorAll('#ledgerTable tbody tr').forEach(tr => {
+      tr.style.display = (f === 'all' || tr.classList.contains(f)) ? '' : 'none';
+    });
+    track('grade_filter', { grade: f });
+  });
+});
+
+// ── 分享 ─────────────────────────────────────
+const SHARE_TXT = '休养生息｜打完球怎么恢复？拉伸治酸痛≈无效（Cochrane），睡眠、蛋白质、力量训练才是真回账；跟腱断裂 2/3 事前无预警。赛后 72 小时账单＋14 项恢复手段 A–D 循证分级＋5 分钟自检 https://liyuankui.github.io/xiuyangshengxi/';
+document.getElementById('shareBtn').onclick = async () => {
+  try { await navigator.clipboard.writeText(SHARE_TXT); } catch (e) {}
+  const b = document.getElementById('shareBtn'); b.textContent = '✓ 已复制';
+  setTimeout(() => b.textContent = '⧉ 复制分享文案', 1600);
+  track('share_copy', {});
+};
+
+// ── PostHog ──────────────────────────────────
+const POSTHOG_KEY = 'phc_AbKVVXPDZKThtUacCHhFOITuBczUvLmPStN1JAZs93e';
+const POSTHOG_ENDPOINT = 'https://eu.i.posthog.com/capture/';
+const PROJECT = 'xiuyangshengxi';
+let FAMILY_UID;
+try { FAMILY_UID = localStorage.getItem('sbf-uid'); } catch(e) {}
+if (!FAMILY_UID) {
+  try {
+    for (const k of ['sanbanfu-uid','xianlihoubing-uid','geziweizhan-uid','shiyuyuanwei-uid','yinshuisiyuan-uid','ruxiangsuisu-uid','xiuyangshengxi-uid']) {
+      const v = localStorage.getItem(k); if (v) { FAMILY_UID = v; break; }
+    }
+    FAMILY_UID = FAMILY_UID || 'u-' + Math.random().toString(36).slice(2,10);
+    localStorage.setItem('sbf-uid', FAMILY_UID);
+  } catch(e) { FAMILY_UID = 'unknown'; }
+}
+function track(event, props = {}) {
+  if (location.protocol !== 'https:' && location.protocol !== 'http:') return;
+  if (navigator.webdriver) return;
+  if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
+  try {
+    navigator.sendBeacon(POSTHOG_ENDPOINT, JSON.stringify({
+      api_key: POSTHOG_KEY, event, timestamp: new Date().toISOString(),
+      properties: { distinct_id: FAMILY_UID, project: PROJECT, url: location.pathname, page: 'index',
+        ref: (document.referrer ? new URL(document.referrer).hostname : 'direct'), ...props }
+    }));
+  } catch (e) {}
+}
+document.querySelectorAll('.nav-in a[href^="#"]').forEach(a => a.addEventListener('click', () => {
+  track('nav_click', { to: a.getAttribute('href').slice(1) });
+}));
+
+// page_leave
+(function() {
+  let acc = 0, vis = Date.now(), scrollPct = 0;
+  addEventListener('scroll', () => {
+    const d = document.documentElement, m = d.scrollHeight - innerHeight;
+    if (m > 0) scrollPct = Math.max(scrollPct, Math.round(Math.min(1, scrollY / m) * 100));
+  }, {passive:true});
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'hidden') { acc += Date.now()-vis; track('page_leave',{dwell_ms:acc,scroll_pct:scrollPct}); }
+    else vis = Date.now();
+  });
+  addEventListener('pagehide', () => {
+    if (document.visibilityState !== 'hidden') { acc += Date.now()-vis; track('page_leave',{dwell_ms:acc,scroll_pct:scrollPct}); }
+  });
+})();
+track('page_view', {});
+</script>
+</body>
+</html>
